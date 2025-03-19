@@ -1,8 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
   const [formData, setFormData] = useState({});
+  const Navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -12,6 +14,8 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Responses:", formData);
+    Navigate('/dashboard');
+    
   };
   return (
     <div className="min-h-screen text-white flex items-center justify-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo Section */}
           <div className="flex flex-col items-center md:items-start">
-<p className="text-2xl font-bold">Finter</p>
+            <Link to="/" className="text-2xl font-bold">Finter</Link>
             <p className="text-sm">
               Filter for Finance - Empowering smarter financial decisions.
             </p>
@@ -18,24 +19,19 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:underline">
+                <Link to="/" className="hover:underline">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link to="/about" className="hover:underline">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
+                <Link to="/contact" className="hover:underline">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,13 +42,13 @@ const Footer = () => {
             <p>Email: support@finter.com</p>
             <p>Phone: +123 456 7890</p>
             <div className="flex space-x-4 mt-2">
-              <a href="#" className="hover:text-blue-400">
+              <a to="#" className="hover:text-blue-400">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="hover:text-blue-400">
+              <a to="#" className="hover:text-blue-400">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="hover:text-blue-400">
+              <a to="#" className="hover:text-blue-400">
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
