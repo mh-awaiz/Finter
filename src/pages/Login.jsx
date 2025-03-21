@@ -1,26 +1,28 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Mock login logic
-    if (email === 'user@example.com' && password === 'password123') {
-      alert('Login Successful!');
-      navigate('/dashboard'); // Redirect to a dashboard or home page
+    if (email === "user@example.com" && password === "password123") {
+      alert("Login Successful!");
+      navigate("/dashboard"); // Redirect to a dashboard or home page
     } else {
-      alert('Invalid email or password');
+      alert("Invalid email or password");
     }
   };
 
   return (
     <div className="min-h-screen  flex items-center justify-center">
       <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h2 className="text-3xl font-bold text-white text-center mb-6">Login</h2>
+        <h2 className="text-3xl font-bold text-white text-center mb-6">
+          Login
+        </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-gray-400 mb-2">Email</label>
