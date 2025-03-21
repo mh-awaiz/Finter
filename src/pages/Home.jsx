@@ -60,7 +60,7 @@ const Home = () => {
           <div className="text-blue-500 text-3xl mr-4">🔧</div>
           <div>
             <h3 className="font-bold">Customizable Persona</h3>
-            <p className="text-gray-400 text-sm">Creating a personlised Persona foe the user.</p>
+            <p className="text-gray-400 text-sm">Creating a personlised Persona for our user.</p>
           </div>
         </div>
         <div className="flex items-center">
