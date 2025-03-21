@@ -59,22 +59,22 @@ const Home = () => {
         <div className="flex items-center">
           <div className="text-blue-500 text-3xl mr-4">🔧</div>
           <div>
-            <h3 className="font-bold">Customizable Categories</h3>
-            <p className="text-gray-400 text-sm">Host code that you don't want to share with the world in private.</p>
+            <h3 className="font-bold">Customizable Persona</h3>
+            <p className="text-gray-400 text-sm">Creating a personlised Persona foe the user.</p>
           </div>
         </div>
         <div className="flex items-center">
           <div className="text-blue-500 text-3xl mr-4">🔒</div>
           <div>
-            <h3 className="font-bold">Private Repos</h3>
-            <p className="text-gray-400 text-sm">Host code that you don't want to share with the world in private.</p>
+            <h3 className="font-bold">Relevant Financial Repo</h3>
+            <p className="text-gray-400 text-sm">We provide relevant financial report.</p>
           </div>
         </div>
         <div className="flex items-center">
           <div className="text-blue-500 text-3xl mr-4">📊</div>
           <div>
-            <h3 className="font-bold">Tracking Saving Rate</h3>
-            <p className="text-gray-400 text-sm">Host code that you don't want to share with the world in private.</p>
+            <h3 className="font-bold">Analyzing Financial Status</h3>
+            <p className="text-gray-400 text-sm">We analyze financial status of user and then we provide relevant financial report.</p>
           </div>
         </div>
       </div>

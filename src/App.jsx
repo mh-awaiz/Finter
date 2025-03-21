@@ -9,6 +9,7 @@ import Signup from "./pages/SignUp";
 import Login from "./pages/Login";
 import Form from "./pages/Form";
 import Dashboard from "./pages/Dashboard";
+import Thanks from "./pages/Thanks";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/form" element={<Form />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/thankyou" element={<Thanks/>} />
           <Route path="*" element={<NotFound />} />
 
         </Routes>

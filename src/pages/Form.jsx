@@ -35,6 +35,7 @@ const Form = () => {
             name="age"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>What is your current employment status?</label>
@@ -43,6 +44,7 @@ const Form = () => {
             name="employment"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>How would you describe your financial goals?</label>
@@ -51,6 +53,7 @@ const Form = () => {
             name="financialGoals"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <h2 className="text-2xl font-bold text-blue-500 mb-4">
@@ -62,6 +65,7 @@ const Form = () => {
             name="investmentExperience"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>
@@ -72,6 +76,7 @@ const Form = () => {
             name="financialAssets"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>How often do you monitor or manage your investments?</label>
@@ -80,6 +85,7 @@ const Form = () => {
             name="investmentTracking"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <h2 className="text-2xl font-bold text-blue-500 mb-4">
@@ -91,6 +97,7 @@ const Form = () => {
             name="marketVolatility"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>
@@ -102,6 +109,7 @@ const Form = () => {
             name="pastInvestmentDecision"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <label>
@@ -113,6 +121,7 @@ const Form = () => {
             name="investmentLossResponse"
             onChange={handleChange}
             className="w-full p-2 mb-4 bg-gray-700 rounded-lg"
+            required
           />
 
           <button
